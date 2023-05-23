@@ -5,10 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link http://13blog.site
+ * 通过使用@MapperScan可以指定要扫描的Mapper类的包的路径
  */
 @MapperScan("com.site.blog.my.core.dao")
 @SpringBootApplication
